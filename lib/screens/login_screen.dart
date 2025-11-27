@@ -40,7 +40,7 @@ class _LoginScreenState extends State<LoginScreen> {
             SizedBox(height: 20),
             ElevatedButton(onPressed: login, child: Text("Login")),
             TextButton(
-              child: Text("No account? Register here"),
+              child: Text("No account? Register here."),
               onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (_) => RegisterScreen()));
               },
